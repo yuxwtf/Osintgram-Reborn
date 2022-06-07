@@ -6,8 +6,14 @@ im remaking and fixing Osintgram from @Datalux
 
 https://github.com/Datalux/Osintgram
 
-# Soon
+# Commands
 
-![image](https://user-images.githubusercontent.com/99289712/172058318-0038479a-877b-4375-87ac-aeceef5bb851.png)
-
-3 Star and i release !
+```text
+- addrs           Get all registered addressed by target photos
+- fwersemail      Get email of target followers
+- fwingsemail     Get email of users followed by target
+- fwersnumber     Get phone number of target followers
+- fwingsnumber    Get phone number of users followed by target
+- info            Get target info
+- tagged          Get list of users tagged by target
+```
