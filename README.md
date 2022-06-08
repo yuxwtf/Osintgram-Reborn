@@ -17,5 +17,5 @@ https://github.com/Datalux/Osintgram
 - info            Get target info
 - tagged          Get list of users tagged by target
 - follow          Follow target !
-- unfollow          Unfollow target !
+- unfollow        Unfollow target !
 ```
