@@ -16,4 +16,6 @@ https://github.com/Datalux/Osintgram
 - fwingsnumber    Get phone number of users followed by target
 - info            Get target info
 - tagged          Get list of users tagged by target
+- follow          Follow target !
+- unfollow          Unfollow target !
 ```
