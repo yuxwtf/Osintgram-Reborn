@@ -52,6 +52,7 @@ def get_user_info(target):
     return api.user_info_by_username(target)
 
 def cmd_addrs(target):
+    count = 0
     usrid = get_user_id(target)
     t = PrettyTable()
     sys.stdout.write(Fore.YELLOW + f"\n"*1 + " "*6 + f"\rCatched {count} address !")
@@ -242,6 +243,21 @@ def main():
             cmd_fwersnumber(target)
         elif command == "fwingsnumber":
             cmd_fwingsnumber(target)
+        elif command == "selftarget":
+            target = api.username
+            cool_print(Fore.GREEN + f'Target is now {api.username}')
+        elif command == "follow":
+            try:
+                api.user_follow(get_user_id(target))
+                cool_print(Fore.GREEN + f'Followed target!')
+            except:
+                cool_print(Fore.RED + f'Failed to follow target !')
+        elif command == "unfollow":
+            try:
+                api.user_unfollow(get_user_id(target))
+                cool_print(Fore.GREEN + f'Unfollowed target!')
+            except:
+                cool_print(Fore.RED + f'Failed to unfollow target !')
         else:
             print('[!] Invalid command.')
 
