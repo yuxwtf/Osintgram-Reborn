@@ -6,6 +6,10 @@ im remaking and fixing Osintgram from @Datalux
 
 https://github.com/Datalux/Osintgram
 
+# API
+
+Im using another api of instagram
+
 # Commands
 
 ```text
