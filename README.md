@@ -2,7 +2,7 @@
 
 im remaking and fixing Osintgram from @Datalux
 
-# Credit
+# Original
 
 https://github.com/Datalux/Osintgram
 
