@@ -1,2 +1,6 @@
 pystyle
 opencv-python
+colorama
+prettytable
+matplotlib
+instagrapi
