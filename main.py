@@ -10,7 +10,6 @@ from pystyle import Center, Box
 from colorama import init, Fore
 from geopy.geocoders import Nominatim
 import json
-import ascii2text
 import os
 import requests
 import ssl
